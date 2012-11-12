@@ -1,49 +1,19 @@
-python_modelling_fitting
-========================
+Modelling and Fitting in Python
+===============================
 
-What is this?
--------------
+This is a survey / tutorial of existing Python modelling and fitting packages.
 
-A survey / tutorial of existing Python modelling and fitting packages.
+The goal is to help you to to quickly:
+* figure out the features and limitations of the many available packages
+* get started by reading and playing with an IPython notebook
 
-What is this (long version)?
-----------------------------
+If you want to model and fit your data in Python, go check out the documentation
+cdeil.github.com/modelling_fitting_python
 
-Modelling and fitting data is a very common data analysis task for scientists and engineers.
-This is often a trial-and-error activity, one has to try out different models, fit parameter
-starting values and sometimes even fit statistics (a.k.a. cost functions like chi-square or
-likelihood).
-The Python programming language and the IPython shell are a very good and popular
-choice for modelling and fitting, and indeed there are plenty of Python packages for modelling
-and / or fitting available:
+If you're a developer for a Python modelling and fitting package you can
+also consider this a shootout and see how you are doing compared to the competition:
+cdeil.github.com/modelling_fitting_python/feature_matrix.html
 
-* http://docs.scipy.org/doc/scipy/reference/tutorial/optimize.html
-* http://newville.github.com/lmfit-py/
-* http://cxc.harvard.edu/contrib/sherpa/
-* http://pymc-devs.github.com/pymc/
-* http://statsmodels.sourceforge.net
-* http://scikit-learn.org
-* http://en.wikipedia.org/wiki/OpenOpt
-* http://bethgelab.org/media/uploads/software/natter/doc/index.html
-* http://sympy.org
+We do hope that in the long run the available packages will grow more powerful and easy to use.
 
-The most popular modelling and fitting package used by physicists is ROOT / Minuit / RooFit.
-It's C++ though, and the existing CINT command line interface is not as nice as IPython.
-There have been several projects wrapping ROOT / Minuit / RooFit in Python:
-
-* http://root.cern.ch/drupal/content/how-use-use-python-pyroot-interpreter
-* http://code.google.com/p/pyminuit/
-* http://code.google.com/p/pyminuit2/
-* http://root.cern.ch/drupal/content/roofit
-* https://github.com/piti118/RTMinuit
-* https://github.com/piti118/dist_fit
-
-Here we want to survey the existing Python packages to see what their features and user interface are,
-before we attempt to add Minuit and / or RooFit Python wrappers to rootpy ( http://www.rootpy.org ).
-
-We'll take a few simple to medium-difficulty fitting problems and show how to solve them with each package.
-This should also be a nice tutorial for people that are trying to decide which package is worth learning
-and will be the best for their analysis needs.
-
-All help is welcome!
-
+Please contribute via github issues or pull requests!
