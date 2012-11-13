@@ -13,7 +13,7 @@ Web page:     http://pyfit.github.com
 
 Shootout:     http://pyfit.github.com/feature_matrix.html
 
-Mailing list: http://groups.google.com/group/pyfits
+Mailing list: http://groups.google.com/group/pyfit
 
 We do hope that in the long run the available packages will grow more powerful and easy to use.
 
