@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# python_modelling_fitting documentation build configuration file, created by
+# pyfit documentation build configuration file, created by
 # sphinx-quickstart on Mon Nov 12 14:41:58 2012.
 #
 # This file is execfile()d with the current directory set to its containing dir.
@@ -40,7 +40,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'python_modelling_fitting'
+project = u'pyfit'
 copyright = u'2012, Christoph Deil and Piti Ongmongkolkul'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -124,7 +124,7 @@ html_theme_path = ['_themes']
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['_static']
+#html_static_path = ['_static']
 
 # If not '', a 'Last updated on:' timestamp is inserted at every page bottom,
 # using the given strftime format.
@@ -168,7 +168,7 @@ html_static_path = ['_static']
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'python_modelling_fittingdoc'
+htmlhelp_basename = 'pyfitdoc'
 
 
 # -- Options for LaTeX output --------------------------------------------------
@@ -187,7 +187,7 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'python_modelling_fitting.tex', u'python\\_modelling\\_fitting Documentation',
+  ('index', 'pyfit.tex', u'pyfit Documentation',
    u'Christoph Deil and Piti Ongmongkolkul', 'manual'),
 ]
 
@@ -217,7 +217,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'python_modelling_fitting', u'python_modelling_fitting Documentation',
+    ('index', 'pyfit', u'pyfit Documentation',
      [u'Christoph Deil and Piti Ongmongkolkul'], 1)
 ]
 
@@ -231,8 +231,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'python_modelling_fitting', u'python_modelling_fitting Documentation',
-   u'Christoph Deil and Piti Ongmongkolkul', 'python_modelling_fitting', 'One line description of project.',
+  ('index', 'pyfit', u'pyfit Documentation',
+   u'Christoph Deil and Piti Ongmongkolkul', 'pyfit', 'One line description of project.',
    'Miscellaneous'),
 ]
 

@@ -77,17 +77,17 @@ qthelp:
 	@echo
 	@echo "Build finished; now you can run "qcollectiongenerator" with the" \
 	      ".qhcp project file in $(BUILDDIR)/qthelp, like this:"
-	@echo "# qcollectiongenerator $(BUILDDIR)/qthelp/python_modelling_fitting.qhcp"
+	@echo "# qcollectiongenerator $(BUILDDIR)/qthelp/pyfit.qhcp"
 	@echo "To view the help file:"
-	@echo "# assistant -collectionFile $(BUILDDIR)/qthelp/python_modelling_fitting.qhc"
+	@echo "# assistant -collectionFile $(BUILDDIR)/qthelp/pyfit.qhc"
 
 devhelp:
 	$(SPHINXBUILD) -b devhelp $(ALLSPHINXOPTS) $(BUILDDIR)/devhelp
 	@echo
 	@echo "Build finished."
 	@echo "To view the help file:"
-	@echo "# mkdir -p $$HOME/.local/share/devhelp/python_modelling_fitting"
-	@echo "# ln -s $(BUILDDIR)/devhelp $$HOME/.local/share/devhelp/python_modelling_fitting"
+	@echo "# mkdir -p $$HOME/.local/share/devhelp/pyfit"
+	@echo "# ln -s $(BUILDDIR)/devhelp $$HOME/.local/share/devhelp/pyfit"
 	@echo "# devhelp"
 
 epub:
