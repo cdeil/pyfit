@@ -16,6 +16,7 @@ Contents:
    examples
    example_matrix
    feature_matrix
+   developer
 
 Indices and tables
 ==================
