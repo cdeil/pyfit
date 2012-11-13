@@ -6,7 +6,8 @@
 Python modelling and fitting survey / tutorial
 ==============================================
 
-Contents:
+Contents
+--------
 
 .. toctree::
    :maxdepth: 2
@@ -19,7 +20,7 @@ Contents:
    developer
 
 Indices and tables
-==================
+------------------
 
 * :ref:`genindex`
 * :ref:`modindex`
