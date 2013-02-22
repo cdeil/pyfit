@@ -1,5 +1,9 @@
+.. _examples:
+
 Examples
 ========
+
+See :ref:`fig:fitting_illustration_1d`
 
 Distribution fits
 -----------------
